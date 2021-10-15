@@ -1,0 +1,277 @@
+*{
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+*::after, ::before{
+	box-sizing: border-box;
+
+}
+
+body{
+	background-color: #F7F7F7;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.5;
+
+}
+
+/*Global Layout*/
+.container{
+	margin: auto;
+	overflow: hidden;
+	width:90%;
+}
+
+/*Header*/
+
+#header{
+	background-color: #11202C;
+	color: #FFFFFF;
+	min-height: 50px;
+	padding-top: 25px; 
+}
+
+#header h1 {
+	color: #FFFFFF;
+	font-size: 17px;/*1 rem = 16px*/
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+#header h3 {
+	color: #FFFFFF;
+	font-size: 15px;/*1 rem = 16px*/
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#header #branding {
+	float: left;
+}
+
+#header #brading h1 {
+	margin: 0
+}
+
+#header nav {
+	float: right;
+	margin-top: 0px;
+}
+
+
+#header .highlight, #header .current a {
+	color: #64ADD6;
+	font-weight: bold;
+}
+
+#header a:hover {
+	color: #ccc;
+	font-weight: bold;
+}
+
+/*showcase*/
+
+#showcase {
+	background-image: url('../IMG/overlay.png');
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #4696E5;
+	color: #FFFFFF;
+	font-size: 20px;
+	min-height: 550px;
+	padding-top: 30px;
+}
+
+#showcase p {
+	font-size: 18px;
+}
+
+#showcase button{
+	background-color: transparent;
+  	border: 2px solid #FFFFFF;
+  	border-radius: 7px;
+  	color: white;
+  	cursor: pointer;
+  	font-size: 20px;
+  	font-weight: 700;
+  	line-height: 34px;
+  	margin-top: 15px;
+  	margin-right: 20px;
+  	padding: 5px;
+  	width: 230px;
+  	opacity: 1;
+  	transition: 0.3s;
+}
+
+.showcase button:hover {
+	opacity: 0.7;
+}
+
+
+.floatset img {
+	float: left;
+}
+
+/*For Main Below Showcase*/
+
+#main{
+	border-top: 2.5px solid #C8CDFF;
+	margin-top: 4%;
+	padding-top: 5%;
+}
+
+#sidebar{
+	float: right;
+	width: 61%;
+}
+
+#main-col{
+	float: left;
+	width: 38%;
+}
+
+.dark{
+	background: #05305B;
+	border-radius: 10px;
+	color: #FFFFFF;
+	margin-bottom: 5%;
+	min-height: 300px;
+	max-height: 350px;
+	overflow: hidden;
+	padding: 15px;
+}
+
+.dark h3{
+	border-bottom: 2.5px solid #FFFFFF;
+	margin-bottom: 15px;
+	min-width: 100px;
+	font-size: 25px;
+	width: 60px;
+}
+
+
+#boxes{
+	margin-top: 20px;
+}
+
+#boxes div{
+	margin-left:85px;
+}
+
+#boxes .box{
+	float: left;
+	text-align: center;
+	width: 27%;
+	padding: 7px;
+	margin: 3% 1% 0 1.5%;
+	border-radius: 20px;
+	background-color: #FFFFFF;
+	min-height: 400px;
+	border-spacing: 1px;
+}
+
+#boxes .box img{
+	width: 90px;
+}
+
+#boxes h2{
+	color: #1498F8;
+	text-align: center;
+}
+
+#boxes .box h3{
+	color: #3E68FF;
+
+}
+
+#boxes .box p{
+	margin-top: 5%;
+	padding: 2%;
+
+}
+
+/*Contac*/
+
+#contact{
+	margin-top: 4%;
+	padding: 10px;
+	background-color: #11202C;
+	border-bottom: 0.2px solid #E6ECF0;
+}
+
+#contact h2{
+	color: #D2E9FA;
+	text-align: center;
+}
+
+#contact ul{
+	list-style: none;
+	align-items: center;
+	margin-left: 39%;
+	width: 100%;
+}
+
+#contact ul li{
+	width: 100%;
+	align-items: center;
+}
+
+
+.fa {
+  padding: 20px;
+  text-decoration: none;
+  margin: 20px 10px;
+  float: left;
+  border-radius: 4%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+  background: #11202C; 
+  color: white;
+}
+
+.fa-google {
+  background: #11202C;
+  color: white;
+}
+
+.fa-facebook {
+  background: #11202C;
+  color: white;
+}
+
+.fa-github {
+  background: #11202C;
+  color: white;
+}
+
+.fa-discord {
+  background: #11202C;
+  color: white;
+}
+
+.fa-clipstudio {
+  background: #11202C;
+  color: white;
+}
+
+
+
+/*footer*/
+
+footer{
+	background-color: #11202C;
+	color:#667389;
+	font-size: 14px;
+	padding: 15px 0px 15px 30px;
+}
+
+
+
+
